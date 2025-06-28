@@ -4,6 +4,7 @@ import Banner from '../components/Hero/Banner';
 import Contact from '../components/Contact/Contact';
 import About from '../components/About/About';
 import Skills from '../components/Skills/Skills';
+import Projects from '../components/Projects/Projects';
 
 const Portfolio = () => {
     return (
@@ -18,7 +19,7 @@ const Portfolio = () => {
             <Banner></Banner>
             <About></About>
             <Skills></Skills>
-
+            <Projects></Projects>
             
                 {/* Brands */}
                 <section className="bg-gray-200">

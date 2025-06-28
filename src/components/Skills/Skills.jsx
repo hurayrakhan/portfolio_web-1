@@ -65,7 +65,7 @@ const SkillCategory = ({ title, skills, delay }) => (
 
 const Skills = () => {
     return (
-        <section id="skills" className="bg-gray-200 py-16 px-6 md:px-24 flex flex-col items-center overflow-hidden">
+        <section id="skills" className="bg-gray-200 py-16 px-6 md:px-24 flex flex-col items-center overflow-hidden rounded-b-4xl relative">
             <h1 className="w-4/5 md:w-2/3 text-xl md:text-3xl text-center font-semibold leading-8 md:leading-12 text-gray-800">
                 Empowered by technologies that build modern and scalable web applications.
             </h1>
