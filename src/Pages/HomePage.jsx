@@ -1,56 +1,14 @@
 import React from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import Banner from '../components/Hero/Banner';
 
 const Portfolio = () => {
     return (
         <div>
             <header className="bg-gray-200 rounded-b-4xl h-screen">
-                <nav className="flex justify-between items-center px-12 py-12">
-                    {/* CV section */}
-                    <div className="flex gap-4 justify-center text-sm items-center">
-                        <p className="text-sm">imhurayrakhan@gmail.com</p>
-                        <a className="px-8 py-2 rounded-3xl bg-white hover:bg-green-300" href="#">Copy</a>
-                        <a className="px-8 py-2 rounded-3xl bg-white hover:bg-green-300" href="#">CV</a>
-                    </div>
-                    {/* Links section */}
-                    <div>
-                        <ul className="flex gap-3 text-sm">
-                            <li><a href="#">Home</a></li>
-                            <li>/</li>
-                            <li><a href="#">About</a></li>
-                            <li>/</li>
-                            <li><a href="#">Services</a></li>
-                            <li>/</li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-
-                {/* Hero Section */}
-                <div className="mt-12">
-                    <div className="pb-24 flex flex-col justify-center items-center">
-                        <div>
-                            <img
-                                src="assets/hurayra-3.jpg"
-                                alt=""
-                                className="relative rounded-full h-32 w-32 object-cover filter grayscale border-4 border-white"
-                            />
-                            <div className="pl-3 py-2 w-32 bg-white text-xs rounded-4xl -rotate-12 relative -top-24 left-24 flex gap-2">
-                                <h1>Hurayra Khan</h1>
-                                <img className="w-3 h-3" src="assets/hi.gif" alt="" />
-                            </div>
-                        </div>
-                        <div className="flex justify-center items-center text-center">
-                            <div className="flex flex-col gap-4 justify-center items-center">
-                                <h1 className="text-3xl md:text-5xl font-bold text-gray-700 w-2/3 md:w-1/2 leading-14">
-                                    Building digital products, brands, and experience.
-                                </h1>
-                                <a className="mt-6 px-12 py-3 rounded-3xl bg-gray-800 text-white hover:bg-gray-600" href="#">
-                                    Contact
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Navbar></Navbar>
+                <Banner></Banner>
+                
             </header>
 
             <main>
