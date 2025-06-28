@@ -14,7 +14,7 @@ const Banner = () => {
     };
 
     return (
-        <div className="h-[calc(100vh-84px)] relative pt-20 bg-gray-200 rounded-b-4xl -mt-8 overflow-hidden">
+        <div id='home' className="h-[calc(100vh-84px)] relative pt-20 bg-gray-200 rounded-b-4xl -mt-8 overflow-hidden">
             {/* Content Section */}
             <div className="flex flex-col justify-center items-center pb-24">
 

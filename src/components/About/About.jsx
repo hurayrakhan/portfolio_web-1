@@ -7,7 +7,7 @@ const About = () => {
     <div className="bg-gray-200">
         <section id="about" className="bg-cyan-50 -mt-6 z-10 rounded-b-4xl md:px-24 py-16  flex flex-col justify-center items-center">
       {/* Section Heading and Badge */}
-      <h1 className="w-4/5 md:w-2/3 text-xl md:text-3xl text-center font-semibold md:px-24 leading-8 md:leading-12 text-gray-800">
+      <h1 className="w-4/5 md:w-2/3 pt-6 text-xl md:text-3xl text-center font-semibold md:px-24 leading-8 md:leading-12 text-gray-800">
         Learn more about who I am and what drives me forward.
       </h1>
       <div className="relative border-1 w-full my-16 border-gray-300"></div>
