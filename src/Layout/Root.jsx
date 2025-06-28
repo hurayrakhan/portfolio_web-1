@@ -5,7 +5,6 @@ const Root = () => {
     return (
         <>
             <Portfolio></Portfolio>
-
         </>
     );
 };
