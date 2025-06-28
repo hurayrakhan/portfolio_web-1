@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="bg-cyan-50 z-500 -mt-6 md:px-24 py-16  flex flex-col justify-center items-center">
+    <div className="bg-gray-200">
+        <section id="about" className="bg-cyan-50 -mt-6 z-10 rounded-b-4xl md:px-24 py-16  flex flex-col justify-center items-center">
       {/* Section Heading and Badge */}
       <h1 className="w-4/5 md:w-2/3 text-xl md:text-3xl text-center font-semibold md:px-24 leading-8 md:leading-12 text-gray-800">
         Learn more about who I am and what drives me forward.
@@ -46,6 +47,7 @@ const About = () => {
         </motion.div>
       </div>
     </section>
+    </div>
   );
 };
 

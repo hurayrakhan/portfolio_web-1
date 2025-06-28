@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Banner from '../components/Hero/Banner';
 import Contact from '../components/Contact/Contact';
 import About from '../components/About/About';
+import Skills from '../components/Skills/Skills';
 
 const Portfolio = () => {
     return (
@@ -16,6 +17,7 @@ const Portfolio = () => {
             </header>
             <Banner></Banner>
             <About></About>
+            <Skills></Skills>
 
             
                 {/* Brands */}

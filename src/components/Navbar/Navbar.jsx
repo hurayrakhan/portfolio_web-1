@@ -19,7 +19,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="flex justify-between items-center bg-gray-200 z-500 sticky top-0  py-6 px-12 rounded-b-4xl">
+        <nav className="flex justify-between items-center bg-gray-200 z-50 sticky top-0  py-6 px-12 rounded-b-4xl">
             {/* CV + Copy section */}
             <div className="flex gap-4 justify-center text-sm items-center">
                 <p className="text-sm">imhurayrakhan@gmail.com</p>
