@@ -48,7 +48,7 @@ const Navbar = () => {
                     download
                     className="px-8 py-2 rounded-3xl bg-white hover:bg-cyan-300 text-black shadow-md transition duration-300 ease-in-out hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]"
                 >
-                    CV
+                    Resume
                 </a>
             </div>
 
