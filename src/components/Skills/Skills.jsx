@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+
 import html from '../../assets/logos/html.png';
 import css from '../../assets/logos/css.png';
 import js from '../../assets/logos/js.png';
@@ -16,6 +16,9 @@ import netlify from '../../assets/logos/netlify.png';
 import vercel from '../../assets/logos/vercel.png';
 import figma from '../../assets/logos/figma.png';
 import materialui from '../../assets/logos/materialui.png';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion';
+
 
 const SkillCategory = ({ title, skills, delay }) => (
     <motion.div

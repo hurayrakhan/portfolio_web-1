@@ -1,5 +1,6 @@
 import React from "react";
 import hurayraImage from "../../assets/hurayra-4.jpg";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const About = () => {

@@ -2,6 +2,7 @@ import React from 'react';
 import hurayra3 from '../../assets/hurayra-3.jpg';
 import hiGif from '../../assets/hi.gif';
 import { Typewriter } from 'react-simple-typewriter';
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion"; // ✅ Added framer-motion
 
 const Banner = () => {

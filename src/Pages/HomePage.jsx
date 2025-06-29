@@ -5,6 +5,9 @@ import Contact from '../components/Contact/Contact';
 import About from '../components/About/About';
 import Skills from '../components/Skills/Skills';
 import Projects from '../components/Projects/Projects';
+import Timeline from '../components/Experience/Experience';
+import Experience from '../components/Experience/Experience';
+
 
 const Portfolio = () => {
     return (
@@ -20,6 +23,7 @@ const Portfolio = () => {
             <About></About>
             <Skills></Skills>
             <Projects></Projects>
+            <Experience></Experience>
             
                 {/* Brands */}
                 <section className="bg-gray-200">
