@@ -1,9 +1,20 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-@plugin "daisyui/theme" {
-  name: "light";
-  default: true;
-  --color-primary: blue;
-  --color-secondary: teal;
+
+
+@keyframes slide-down {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
 }
+
+.animate-slide-down {
+  animation: slide-down 2s linear infinite;
+}
+
+
+
