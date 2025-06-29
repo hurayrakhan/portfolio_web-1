@@ -42,7 +42,7 @@ const socialLinks = [
 
 const SocialBar = () => {
     return (
-        <div className="fixed left-6 bottom-16 z-50 hidden sm:flex flex-col items-center space-y-4">
+        <div className="fixed left-4 lg:left-6 bottom-10 lg:bottom-16 z-50 hidden sm:flex flex-col items-center md:space-y-2 lg:space-y-4">
             {/* Social Icons */}
             {socialLinks.map((item, idx) => (
                 <a
@@ -51,7 +51,7 @@ const SocialBar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     title={item.title}
-                    className="group relative w-10 h-10 flex items-center justify-center rounded-full bg-white grayscale hover:grayscale-0 shadow hover:shadow-[0_0_15px_3px_rgba(34,211,238,0.5)] hover:scale-110 transition-all duration-300"
+                    className="group relative w-6 h-6 lg:w-10 lg:h-10 flex items-center justify-center rounded-full bg-white grayscale hover:grayscale-0 shadow hover:shadow-[0_0_15px_3px_rgba(34,211,238,0.5)] hover:scale-110 transition-all duration-300"
                 >
                     <span className={`text-xl ${item.color}`}>{item.icon}</span>
 
@@ -63,7 +63,7 @@ const SocialBar = () => {
             ))}
 
             {/* Vertical Animated Line */}
-            <div className="w-[2px] h-24 bg-cyan-500 relative mt-4 overflow-hidden rounded-full">
+            <div className="w-[2px] h-16 lg:h-24 bg-cyan-500 relative mt-4 overflow-hidden rounded-full">
                 <div className="absolute top-0 left-0 w-full h-full animate-slide-down bg-gradient-to-b from-cyan-300 to-cyan-600" />
             </div>
         </div>
