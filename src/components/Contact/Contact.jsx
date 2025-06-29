@@ -41,8 +41,8 @@ const Contact = () => {
         >
           <a
             href="mailto:imhurayrakhan@gmail.com"
-            className="px-8 py-3 bg-black border-2 border-black text-white rounded-4xl font-medium
-              transition duration-300 ease-in-out hover:bg-white hover:text-black hover:shadow-lg"
+            className="px-8 py-3 bg-cyan-300 border-2 border-cyan-400 text-black rounded-4xl font-medium
+              transition duration-300 ease-in-out hover:bg-white hover:text-black hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]"
           >
             Email Me
           </a>
@@ -50,8 +50,9 @@ const Contact = () => {
             href="https://wa.me/8801601770023"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-white border-2 border-gray-400 text-gray-800 rounded-4xl font-medium
-              transition duration-300 ease-in-out hover:bg-green-600 hover:text-white hover:border-green-600 hover:shadow-lg"
+            className="px-8 py-3 rounded-4xl bg-white border-2 border-gray-300 text-black font-medium
+    transition duration-300 ease-in-out
+    hover:bg-cyan-300 hover:text-black hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]"
           >
             WhatsApp
           </a>
