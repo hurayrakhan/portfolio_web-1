@@ -75,7 +75,7 @@ const Navbar = () => {
       </div>
 
       {/* Right: Desktop Nav */}
-      <ul className="hidden md:flex gap-1 text-sm">
+      <ul className="hidden lg:flex gap-1 text-sm">
         {navLinks.map((section) => (
           <li key={section}>
             <button
@@ -94,7 +94,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile Menu Icon */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="text-black text-2xl focus:outline-none"
