@@ -118,43 +118,47 @@ export default function Projects() {
                                         ))}
                                     </div>
                                     <div className="flex space-x-4 pt-4">
+                                        {/* GitHub */}
                                         <a
                                             href={github}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="text-cyan-600 hover:text-cyan-800 transition"
                                         >
-                                            {/* GitHub Icon */}
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 className="h-6 w-6"
                                                 fill="currentColor"
                                                 viewBox="0 0 24 24"
                                             >
-                                                <path m="..." />
+                                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.729.083-.729 1.205.085 1.838 1.237 1.838 1.237 1.07 1.834 2.807 1.304 3.492.997.11-.775.418-1.304.762-1.603-2.665-.3-5.466-1.333-5.466-5.93 0-1.31.468-2.38 1.236-3.22-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.51 11.51 0 0 1 3-.404c1.02.004 2.045.138 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.655 1.653.243 2.873.12 3.176.77.84 1.236 1.91 1.236 3.22 0 4.61-2.804 5.628-5.475 5.922.43.37.823 1.102.823 2.222v3.293c0 .32.218.694.825.576C20.565 21.796 24 17.296 24 12c0-6.63-5.37-12-12-12z" />
                                             </svg>
                                         </a>
+
+                                        {/* External Link */}
                                         <a
                                             href={demo}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="text-cyan-600 hover:text-cyan-800 transition"
                                         >
-                                            {/* External Link Icon */}
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 className="h-6 w-6"
                                                 fill="none"
+                                                viewBox="0 0 24 24"
                                                 stroke="currentColor"
                                                 strokeWidth={2}
-                                                viewBox="0 0 24 24"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             >
-                                                <path m="..." />
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                                <polyline points="15 3 21 3 21 9" />
+                                                <line x1="10" y1="14" x2="21" y2="3" />
                                             </svg>
                                         </a>
                                     </div>
+
                                 </div>
                             </motion.div>
                         );
