@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const experiences = [
@@ -81,7 +82,7 @@ const Experience = () => {
     return (
         <section
             id="education"
-            className="bg-gray-200 py-16 px-6 md:px-24 flex flex-col items-start rounded-b-4xl"
+            className="bg-gray-200 py-16 px-6 md:px-24 flex flex-col items-start"
         >
             {/* Title block */}
             <h1 className="w-4/5 md:w-2/3 pt-6 text-xl md:text-3xl text-center font-semibold leading-8 md:leading-12 text-gray-800 mx-auto">
