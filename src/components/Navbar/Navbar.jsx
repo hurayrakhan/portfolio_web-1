@@ -66,7 +66,7 @@ const Navbar = () => {
         </button>
 
         <a 
-          href="https://drive.google.com/file/d/176-rpwoX3GG09_9UsMASLihIwO3MASLJ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LCZmJoo7LVGvFfbXjXj9xipPZqbD5ZFV/view?usp=sharing"
           target='_blank'
           
           className="px-8 py-2 rounded-3xl bg-white hover:bg-cyan-300 text-black shadow-md transition duration-300 ease-in-out hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]"
