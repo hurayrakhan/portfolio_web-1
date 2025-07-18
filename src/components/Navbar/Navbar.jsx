@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FiCheck, FiMenu, FiX } from 'react-icons/fi';
+import { motion } from "framer-motion"; // ✅ Added framer-motion
+
 
 const Navbar = () => {
   const [copied, setCopied] = useState(false);
@@ -48,12 +50,13 @@ const Navbar = () => {
       <div className="flex gap-4 justify-center text-sm items-center">
         <p className="text-sm hidden sm:block">imhurayrakhan@gmail.com</p>
 
-        <button
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           onClick={handleCopy}
           disabled={copied}
-          className={`px-6 py-2 flex items-center gap-2 rounded-3xl bg-white hover:bg-cyan-300 text-black shadow-md transition duration-300 ease-in-out ${
-            copied ? 'shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]' : 'hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]'
-          }`}
+          className={`px-6 py-2 flex items-center gap-2 rounded-3xl bg-white hover:bg-cyan-300 text-black hover:text-white shadow-md transition duration-300 ease-in-out  ${copied ? 'shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]' : 'hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]'
+            }`}
         >
           {copied ? (
             <>
@@ -63,16 +66,18 @@ const Navbar = () => {
           ) : (
             'Copy'
           )}
-        </button>
+        </motion.button>
 
-        <a 
+        <motion.a
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           href="https://drive.google.com/file/d/1LCZmJoo7LVGvFfbXjXj9xipPZqbD5ZFV/view?usp=sharing"
           target='_blank'
-          
-          className="px-8 py-2 rounded-3xl bg-white hover:bg-cyan-300 text-black shadow-md transition duration-300 ease-in-out hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]"
+
+          className=" px-8 py-2 rounded-3xl bg-white hover:bg-cyan-300 text-black hover:text-white shadow-md transition duration-300 ease-in-out hover:shadow-[0_0_20px_5px_rgba(34,211,238,0.6)]"
         >
           Resume
-        </a>
+        </motion.a>
       </div>
 
       {/* Right: Desktop Nav */}
@@ -81,17 +86,16 @@ const Navbar = () => {
           <li key={section}>
             <button
               onClick={() => handleScroll(section)}
-              className={`relative transition duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:transition-all after:duration-300 ${
-                activeSection === section
-                  ? 'text-cyan-600 after:w-full after:bg-cyan-400'
-                  : 'text-black hover:text-cyan-600 after:w-0 after:bg-cyan-400 hover:after:w-full'
-              }`}
+              className={`relative transition duration-300 ease-in-out after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:transition-all after:duration-300 ${activeSection === section
+                ? 'text-cyan-600 after:w-full after:bg-cyan-400'
+                : 'text-black hover:text-cyan-600 after:w-0 after:bg-cyan-400 hover:after:w-full'
+                }`}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
             </button>{' '}
             /
           </li>
-          
+
         ))}
       </ul>
 
@@ -112,9 +116,8 @@ const Navbar = () => {
             <button
               key={section}
               onClick={() => handleScroll(section)}
-              className={`text-left transition duration-300 ease-in-out ${
-                activeSection === section ? 'text-cyan-600 font-semibold' : 'text-black hover:text-cyan-600'
-              }`}
+              className={`text-left transition duration-300 ease-in-out ${activeSection === section ? 'text-cyan-600 font-semibold' : 'text-black hover:text-cyan-600'
+                }`}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
             </button>
