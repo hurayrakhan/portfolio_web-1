@@ -94,7 +94,7 @@ const Experience = () => {
             </p>
 
             {/* Cards with vertical line */}
-            <div className="relative w-full max-w-3xl flex flex-col space-y-12 ml-6">
+            <div className="relative w-full max-w-3xl flex flex-col space-y-12 ml-56">
                 <div className="absolute left-0 top-0 w-1 bg-cyan-400 rounded-full h-full" style={{ zIndex: 0 }} />
                 {experiences.map((exp, index) => (
                     <ExperienceCard key={index} experience={exp} index={index} />
