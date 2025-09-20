@@ -15,14 +15,14 @@ const experiences = [
         type: "experience",
         title: "Frontend Developer Intern",
         subtitle: "Thinqh Technologies",
-        date: "2024 - 2025",
+        date: "2025 - present",
         icon: <FaBriefcase size={28} />,
     },
     {
         type: "experience",
         title: "MERN Stack Developer (Freelance)",
         subtitle: "Multiple Clients",
-        date: "2023 - Present",
+        date: "2025 - Present",
         icon: <FaBriefcase size={28} />,
     },
 ];
