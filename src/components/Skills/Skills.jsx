@@ -70,7 +70,7 @@ const Skills = () => {
     return (
         <section id="skills" className="bg-gray-200 py-16 px-6 md:px-24 flex flex-col items-center overflow-hidden rounded-b-4xl relative">
             <h1 className="w-4/5 md:w-2/3 text-xl md:text-3xl text-center font-semibold leading-8 md:leading-12 text-gray-800">
-                Empowered by technologies that build modern and scalable web applications.
+                Empowered by technologies that build modern and scalable web applications
             </h1>
             <div className="relative border-1 w-full my-16 border-gray-300"></div>
             <p className="bg-white px-8 py-2 relative -top-20 text-sm font-semibold -rotate-12 rounded-4xl">Skills</p>
